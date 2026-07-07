@@ -4,22 +4,22 @@ cask "sourcemux" do
 
   on_macos do
     on_intel do
-      sha256 "0d161025d4b5c7f2090287eb3c45af1a51f7d5557c6c6ce6b36bc97ec17a70a5"
+      sha256 "c9606bc27cd60089957c91c05ec0d378dac603dfbe734da78e37f4f5d0198f8c"
       url "https://github.com/500tpig/sourcemux-go/releases/download/v#{version}/sourcemux_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "80d6422885a02fae3ae32e7dbc4516d33c4f4777f6ece78f0a625a9ee6ac02c0"
+      sha256 "9a3e0c7b8c10f875e9b63f1255837c860bd7321d877ea2b5886db6a11d28e3f1"
       url "https://github.com/500tpig/sourcemux-go/releases/download/v#{version}/sourcemux_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "6af7e6ff0a508b08b78fdecfb3c93fc86735b09152aca6f8a992b6153bca6690"
+      sha256 "66662ff09b45848d0040f79cd7c6a76cfd2920ce30f51caf469c139a1c5479a8"
       url "https://github.com/500tpig/sourcemux-go/releases/download/v#{version}/sourcemux_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "1525226d945f4893ac59d474be6ce99cadf2781ad3d6aa6e4376a0e89daa4b2e"
+      sha256 "cdc72c87dddc46bbcaf0e191904925dedf7e30ba7b4f75e6179979ea873934c2"
       url "https://github.com/500tpig/sourcemux-go/releases/download/v#{version}/sourcemux_#{version}_linux_arm64.tar.gz"
     end
   end
